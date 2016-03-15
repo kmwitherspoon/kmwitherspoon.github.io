@@ -242,6 +242,8 @@ body {
   #contact .fa:hover {
     color: #cff09e;
     text-decoration: none; }
+  #contact .comment {
+    font-size: 12px; }
 
 .footer {
   width: 100%;
