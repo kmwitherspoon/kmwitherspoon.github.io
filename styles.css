@@ -1,14 +1,22 @@
+@charset "UTF-8";
 body {
   font-family: 'Poiret One', cursive;
   width: 100%;
   height: 100%; }
 
+@font-face {
+  font-family: 'BERNIER';
+  src: url("BERNIER™ Regular.ttf"); }
+
 .header {
+  background: url("images/lighterbackground.jpg") 50% 50% no-repeat;
+  background-size: cover;
   width: 100%;
   height: 600px;
   z-index: 0;
   top: 0;
-  background-color: #18235c; }
+  background-color: #1f4e5f;
+  font-family: 'BERNIER'; }
   .header ul {
     list-style: none; }
     .header ul li a {
@@ -17,7 +25,7 @@ body {
       font-weight: bold;
       text-decoration: none; }
     .header ul li a:hover {
-      color: #86d0d6;
+      color: #cff09e;
       text-decoration: none; }
 
 .aboutText {
@@ -30,19 +38,20 @@ body {
     margin: 0px 20px; }
 
 .logoRow .logo {
-  background-color: white;
   border-radius: 50%;
   width: 300px;
   height: 300px;
   margin-left: auto;
-  margin-right: auto; }
-  .logoRow .logo p {
+  margin-right: auto;
+  float: none; }
+  .logoRow .logo img {
     text-align: center;
     font-size: 80px;
     color: #86d0d6;
-    margin-top: 35%;
+    margin-top: 3%;
+    margin-left: 3%;
     font-weight: bold; }
-  .logoRow .logo p:hover {
+  .logoRow .logo img:hover {
     -webkit-animation: spin 1s infinite linear; }
 
 @-webkit-keyframes spin {
@@ -55,10 +64,11 @@ body {
   height: 400px;
   font-size: 20px;
   width: 100%;
-  background-color: #7380c5;
+  background-color: #3b8686;
   color: white; }
   #about h2 {
-    font-weight: bolder; }
+    font-weight: bolder;
+    font-family: 'BERNIER'; }
   #about p {
     font-weight: bold; }
   #about a {
@@ -71,7 +81,7 @@ body {
     margin-top: 30px;
     color: white; }
   #about .fa:hover {
-    color: #89bdd3; }
+    color: #cff09e; }
 
 .codechampions {
   position: relative;
@@ -80,7 +90,7 @@ body {
   overflow: hidden;
   width: 100%;
   height: 400px;
-  background-color: #86d0d6;
+  background-color: #666666;
   text-align: center;
   cursor: pointer;
   margin-bottom: -5px; }
@@ -108,7 +118,7 @@ body {
   overflow: hidden;
   width: 100%;
   height: 400px;
-  background-color: #7380c5;
+  background-color: #666666;
   text-align: center;
   cursor: pointer;
   margin-bottom: -5px; }
@@ -133,6 +143,8 @@ body {
 
 .fade {
   opacity: 1; }
+  .fade h2 {
+    font-family: 'BERNIER'; }
 
 .goodFood {
   position: relative;
@@ -141,7 +153,7 @@ body {
   overflow: hidden;
   width: 100%;
   height: 400px;
-  background-color: #18235c;
+  background-color: #666666;
   text-align: center;
   cursor: pointer;
   margin-bottom: -5px; }
@@ -197,11 +209,13 @@ body {
 .resume {
   font-size: 40px;
   color: black;
-  background-color: #86d0d6;
+  background-color: #666666;
   height: 300px;
-  text-align: center; }
+  text-align: center;
+  font-family: 'BERNIER';
+  background: url("images/brick-wall.jpg"); }
   .resume a {
-    color: white;
+    color: #3b8686;
     font-weight: bolder;
     position: relative;
     top: 40%;
@@ -209,11 +223,11 @@ body {
 
 #contact {
   height: 300px;
-  background-color: #dfe4ec;
+  background-color: #3b8686;
   color: white;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/contact.jpg") no-repeat;
   width: 100%;
-  background-size: 100%; }
+  background-size: 100%;
+  font-family: 'BERNIER'; }
   #contact h2 {
     font-weight: bolder; }
   #contact p {
@@ -226,8 +240,10 @@ body {
     display: inline-block;
     color: white; }
   #contact .fa:hover {
-    color: #86d0d6;
+    color: #cff09e;
     text-decoration: none; }
+  #contact .comment {
+    font-size: 12px; }
 
 .footer {
   width: 100%;
