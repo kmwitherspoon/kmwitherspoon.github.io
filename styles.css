@@ -32,7 +32,7 @@ body {
       text-decoration: none; 
 }
   .header ul li a:hover {
-      color: #cff09e;
+      color: #A9A9A9;
       text-decoration: none; 
 }
 
@@ -97,7 +97,7 @@ body {
     color: #26262a; 
 }
   #about .fa:hover {
-    color: #edeeef; 
+    color: #A9A9A9; 
 }
 
 .codechampions {
@@ -283,7 +283,7 @@ body {
 }
 
 .resume a:hover {
-  color: #edeeef;
+  color: #A9A9A9;
   text-decoration: none;
 }
 
@@ -311,7 +311,7 @@ body {
     color: white; 
 }
   #contact .fa:hover {
-    color: #edeeef;
+    color: #A9A9A9;
     text-decoration: none; 
 }
   #contact .comment {
