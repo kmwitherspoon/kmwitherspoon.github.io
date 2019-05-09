@@ -246,20 +246,36 @@ body {
 }
 
 .resume {
-  font-size: 40px;
-  color: #355e3b;
-  background-color: white;
-  height: 300px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  background-color: #666666;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
-  background: url("images/ResumeSnippet.png"); 
+  cursor: pointer;
+  margin-bottom: -5px; 
 }
-  .resume a {
-    color: #355e3b;
-    font-weight: bolder;
+  .resume img {
     position: relative;
-    top: 40%;
-    transform: translateY(-50%); 
+    display: block;
+    width: 100%;
+    opacity: 0.3;
+    overflow: hidden;
+    -webkit-filter: grayscale(0.8); 
+}
+
+.resume:first-child {
+  margin-right: 2.762430939%; 
+}
+
+.resume img {
+  width: 100%; 
+}
+
+.resume:hover .img-title {
+  opacity: 0.7; 
 }
 
 #contact {
