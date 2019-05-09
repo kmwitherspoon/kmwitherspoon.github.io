@@ -98,6 +98,7 @@ body {
 }
   #about .fa:hover {
     color: #A9A9A9; 
+    text-decoration: none;
 }
 
 .codechampions {
